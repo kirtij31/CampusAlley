@@ -9,6 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusAlley">
+        <activity android:name=".Adannounce"
+            android:label="Announce"
+            android:theme="@android:style/Theme.Material.Light.Dialog" />
+        <activity
+            android:name=".UploadMaterial"
+            android:label="Upload"
+            android:theme="@android:style/Theme.Material.Light.Dialog" />
+        <activity
+            android:name=".StudentsendMessage"
+            android:label="Type Message"
+            android:theme="@android:style/Theme.Material.Light.Dialog" />
+        <activity android:name=".FacultyDashboard" />
+        <activity android:name=".StudentDashBoard" />
+        <activity
+            android:name=".UserCourseReg"
+            android:label="Register Course"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity
+            android:name=".addNewCourse"
+            android:label="Add New Course"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".AdminDashboard" />
+        <activity
+            android:name=".AdminLogin"
+            android:label="Admin Login"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".CourseDashboard" />
+        <activity android:name=".Signin" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,5 +45,6 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
